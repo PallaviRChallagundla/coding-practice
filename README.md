@@ -7,7 +7,7 @@ It showcases my problem-solving skills, algorithmic thinking, and ability to wri
 
 ## Structure
 - `NeetCode/` → Solutions categorized by difficulty (Easy / Medium / Hard)
-- `HackerRank/` → Solutions categorized by difficulty (Easy / Medium / Hard)
+- `HackerRank/` → Solutions for SQL practice questions categorized by difficulty (Easy / Medium / Hard) 
 
 ## Notes
 - Each solution includes the problem statement link, approach, and complexity analysis where applicable.
