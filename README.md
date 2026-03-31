@@ -6,9 +6,9 @@ This repository contains my coding solutions from my daily practice on **LeetCod
 It showcases my problem-solving skills, algorithmic thinking, and ability to write clean, efficient code alongisde AI tools.
 
 ## Structure
-- `NeetCode/` → Solutions categorized by difficulty (Easy / Medium / Hard)
-- `HackerRank/` → Solutions for SQL practice questions categorized by difficulty (Easy / Medium / Hard) 
+- `NeetCode/` → Python Solutions categorized by difficulty (Easy / Medium / Hard)
+- `Sql/` → Solutions for SQL Hacker rank practice questions categorized by difficulty (Basic / Intermediate / Advcanced) 
 
 ## Notes
 - Each solution includes the problem statement link, approach, and complexity analysis where applicable.
-- Language: Python / SQL / DSA
+- Language: Python, SQL, DSA
