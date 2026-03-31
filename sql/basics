@@ -1,1 +1,39 @@
+-- Problem 1: American Cities | SELECT AND WHERE clauses (City table)
+-- Source: HackerRank
+
+1-- Logic:
+-- Filter USA cities by Population > 100000
+
+SELECT *
+FROM CITY
+WHERE CountryCode = 'USA'
+AND Population > 100000;
+
+2--Logic:
+--Select name filed and filter USA cities by Population larger than 120000
+
+SELECT NAME
+FROM CITY
+WHERE COUNTRYCODE = 'USA'
+AND POPULATION > 120000;
+
+3--Logic: 
+--Fetch all columns and rows
+
+SELECT *
+FROM CITY;
+
+4--Logic: 
+--Filter by a particular ID
+
+SELECT *
+FROM CITY 
+WHERE ID = 1661;
+
+5--Logi
+--Filter by a different city japan
+
+SELECT *
+FROM CITY
+WHERE COUNTRYCODE = 'JPN';
 
