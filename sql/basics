@@ -37,3 +37,25 @@ SELECT *
 FROM CITY
 WHERE COUNTRYCODE = 'JPN';
 
+6--Logic
+--Filter by a column (name) and particular row (country name is Japan)
+
+SELECT NAME
+FROM CITY
+WHERE COUNTRYCODE = 'JPN';
+
+7--Logic
+--Diff table name, select 2 fields(City, state) from that table(station)
+
+SELECT CITY, STATE
+FROM STATION;
+
+8--Logic
+--exclude duplicates from the answer while selecting 2 columns
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE ID % 2 = 0  
+ORDER BY CITY ASC;
+
+
