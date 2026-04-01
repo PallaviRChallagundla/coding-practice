@@ -58,4 +58,34 @@ FROM STATION
 WHERE ID % 2 = 0  
 ORDER BY CITY ASC;
 
+9--logic
+--Difference between unique and total city in station table 
 
+SELECT COUNT(CITY) - COUNT(DISTINCT CITY) AS difference
+FROM STATION;
+
+10--Logic
+--shortest, longest and query first that comes in order alphabetically 
+
+(SELECT CITY, LENGTH(CITY) AS length
+ FROM STATION
+ ORDER BY LENGTH(CITY), CITY
+ LIMIT 1)
+
+UNION
+
+(SELECT CITY, LENGTH(CITY) AS length
+ FROM STATION
+ ORDER BY LENGTH(CITY) DESC, CITY
+ LIMIT 1);
+
+11--Logic
+--Vowels and no duplicates
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE LOWER(CITY) LIKE 'a%'
+   OR LOWER(CITY) LIKE 'e%'
+   OR LOWER(CITY) LIKE 'i%'
+   OR LOWER(CITY) LIKE 'o%'
+   OR LOWER(CITY) LIKE 'u%';
