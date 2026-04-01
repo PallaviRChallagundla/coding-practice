@@ -80,7 +80,7 @@ UNION
  LIMIT 1);
 
 11--Logic
---Vowels and no duplicates
+--VWords starting with vowels and no duplicates
 
 SELECT DISTINCT CITY
 FROM STATION
@@ -89,3 +89,14 @@ WHERE LOWER(CITY) LIKE 'a%'
    OR LOWER(CITY) LIKE 'i%'
    OR LOWER(CITY) LIKE 'o%'
    OR LOWER(CITY) LIKE 'u%';
+
+12--logic
+--Words ending with vowels and no duplicates
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE LOWER(CITY) LIKE '%a'
+   OR LOWER(CITY) LIKE '%e'
+   OR LOWER(CITY) LIKE '%i'
+   OR LOWER(CITY) LIKE '%o'
+   OR LOWER(CITY) LIKE '%u';
